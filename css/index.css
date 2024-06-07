@@ -92,6 +92,9 @@ body {
     text-decoration: none;
     color: #ffffff;
 }
+.project-card .links a:hover{
+    color: rgb(0, 255, 72);
+}
 
 .image-grid {
     display: flex;
