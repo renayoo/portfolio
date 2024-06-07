@@ -26,14 +26,12 @@ body {
     flex-direction: column;
     margin-bottom: 40px;
 }
-
 .profile-pic {
     border-radius: 50%;
     width: 150px;
     height: 150px;
     margin-bottom: 20px;
 }
-
 .profile-description {
     max-width: 600px;
 }
@@ -44,7 +42,6 @@ body {
     gap: 10px;
     margin: 20px 0;
 }
-
 .skill-logo {
     width: 180px;
     height: 100px;
@@ -73,7 +70,6 @@ body {
     text-align: center;
     padding: 10px;
 }
-
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -81,33 +77,34 @@ body {
     justify-content: center;
     margin-bottom: 40px;
 }
-
 .project-card {
     background-color: #19308d;
     border-radius: 10px;
     padding: 20px;
     width: calc(33.333% - 20px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    text-align: center; 
     color: white;
+    height: auto;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
 }
-
 .project-card img {
     max-width: 100%;
     border-radius: 5px;
     margin-bottom: 10px;
+    align-self: center;
 }
-
 .project-card .links {
     margin-top: 10px;
 }
-
 .project-card .links a {
     margin-right: 10px;
     text-decoration: none;
     color: #ffffff;
 }
-.project-card .links a:hover{
+.project-card .links a:hover {
     color: rgb(0, 255, 72);
 }
 
@@ -115,7 +112,6 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
-
 .image-grid img {
     flex: 1;
     max-width: 100%;
@@ -142,7 +138,7 @@ body {
 
     .image-grid img {
         width: calc(100% - 10px);
-        height: 200px; /* Set a fixed height */
+        height: 200px; 
     }
 }
 
