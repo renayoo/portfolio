@@ -8,8 +8,6 @@ This is my first portfolio website. I am planning to update and integrate more f
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
 - HTML
 - CSS
 
