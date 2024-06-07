@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    background: url('https://cdn.pixabay.com/photo/2020/02/10/18/52/sunset-4837406_1280.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fea7ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 1200px;
+    opacity: 90%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.profile-description {
+    max-width: 600px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.skill-logo {
+    width: px;
+    height: 50px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.project-card {
+    background-color: #5e198d;
+    border-radius: 10px;
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project-card .links {
+    margin-top: 10px;
+}
+
+.project-card .links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.image-grid img {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    width: calc(25% - 10px);
+    height: 200px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1024px) {
+    .project-card {
+        width: calc(50% - 20px);
+    }
+
+    .image-grid img {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        width: calc(100% - 20px);
+    }
+
+    .image-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-grid img {
+        width: calc(100% - 10px);
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-description {
+        max-width: 100%;
+    }
+
+    .project-card {
+        padding: 15px;
+    }
+
+    .image-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-grid img {
+        width: calc(100% - 10px);
+    }
+}
