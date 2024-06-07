@@ -55,6 +55,11 @@ body {
     margin: 5px 0;
 }
 
+.projecth2 {
+    text-align: center;
+    padding: 10px;
+}
+
 .projects {
     display: flex;
     flex-wrap: wrap;
