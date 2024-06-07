@@ -46,12 +46,27 @@ body {
 }
 
 .skill-logo {
-    width: px;
-    height: 50px;
+    width: 180px;
+    height: 100px;
 }
 
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
 .contact-info p {
+    font-size: 20px;
     margin: 5px 0;
+}
+.contact-info a {
+    text-decoration: none;
+    color: #000;
+}
+.contact-info a:hover {
+    color: white;
+}
+.contact-info i {
+    margin-right: 8px;
 }
 
 .projecth2 {
@@ -99,30 +114,17 @@ body {
 .image-grid {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .image-grid img {
     flex: 1;
     max-width: 100%;
-    height: auto;
     object-fit: cover;
     width: calc(25% - 10px);
-    height: 200px;
+    height: 300px;
 }
 
 /* Media Queries */
-
-@media (max-width: 1024px) {
-    .project-card {
-        width: calc(50% - 20px);
-    }
-
-    .image-grid img {
-        width: calc(50% - 10px);
-    }
-}
-
 @media (max-width: 768px) {
     .profile {
         flex-direction: column;
@@ -140,6 +142,7 @@ body {
 
     .image-grid img {
         width: calc(100% - 10px);
+        height: 200px; /* Set a fixed height */
     }
 }
 
@@ -159,5 +162,6 @@ body {
 
     .image-grid img {
         width: calc(100% - 10px);
+        height: 150px; 
     }
 }
