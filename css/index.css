@@ -3,8 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f0f0f0;
-    background: url('https://cdn.pixabay.com/photo/2020/02/10/18/52/sunset-4837406_1280.jpg') no-repeat center center fixed;
+    background: url('https://cdn.pixabay.com/photo/2019/04/29/07/34/purple-4165352_1280.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -69,7 +68,7 @@ body {
 }
 
 .project-card {
-    background-color: #5e198d;
+    background-color: #19308d;
     border-radius: 10px;
     padding: 20px;
     width: calc(33.333% - 20px);
