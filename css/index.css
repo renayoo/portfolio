@@ -120,6 +120,23 @@ body {
     height: 300px;
 }
 
+footer {
+    background-color: rgb(255, 193, 182);
+    padding: 20px;
+    text-align: left;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content img {
+    width: 100px; 
+    margin-right: 10px;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
     .profile {
